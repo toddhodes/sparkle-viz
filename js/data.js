@@ -58,12 +58,10 @@ function DataContainer() {
     var mdn = urlArg("mdn");
     if (mdn == "") mdn = "5105551212";
 
-    // due to XSS security issues, generally can't access
-    // sparkledemo; thus we need this for local devel
+    // due to XSS security issues, we need this for local devel
     var url = 'data/' + mdn + '.json';
-    if (window.location.hostname == "sparkledemo.locationlabs.com") {
-      url = 'http://sparkledemo.locationlabs.com/'
-              + 'finder-att-family/location_feed/' + mdn + '/playback.svc';
+    if (window.location.hostname == "SERVER_HOSTNAME") {
+      url = 'http://SERVER_HOSTNAME/location_feed/' + mdn + '/playback.svc';
     }
 
     var xhrArgs = {
