@@ -1,0 +1,104 @@
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '131',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2897,"lon":-122.29241111249999,"lat":37.841335012500004,"unc":102.0,"time":1302137566,"expiration":1302223966}}]
+
+BODY:
+[{"location":{"id":2898,"lon":-122.29263034,"lat":37.84131358,"unc":130.0,"time":1302138918,"expiration":1302225318}}]
+
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '131',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2901,"lon":-122.29245463333332,"lat":37.841522033333334,"unc":114.0,"time":1302142788,"expiration":1302229188}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '131',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2901,"lon":-122.29245463333332,"lat":37.841522033333334,"unc":114.0,"time":1302142788,"expiration":1302229188}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '117',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2902,"lon":-122.29199844,"lat":37.84148814,"unc":79.0,"time":1302143820,"expiration":1302230220}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '117',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2903,"lon":-122.2926742,"lat":37.84173755,"unc":128.0,"time":1302146117,"expiration":1302232517}}]
+
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '124',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2904,"lon":-122.2923902,"lat":37.841386666666665,"unc":127.0,"time":1302147960,"expiration":1302234360}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '129',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2905,"lon":-122.29250553333333,"lat":37.84180666666666,"unc":98.0,"time":1302149897,"expiration":1302236297}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '130',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2906,"lon":-122.29305143333333,"lat":37.84171633333333,"unc":143.0,"time":1302169290,"expiration":1302255690}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '123',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2907,"lon":-122.2924427,"lat":37.84167061666667,"unc":169.0,"time":1302171182,"expiration":1302257582}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '130',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2908,"lon":-122.29241846666666,"lat":37.84147838333333,"unc":118.0,"time":1302183104,"expiration":1302269504}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '117',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2909,"lon":-122.29283355,"lat":37.8413903,"unc":170.0,"time":1302206507,"expiration":1302292907}}]
+
+HEADERS: 
+{ 'user-agent': 'Jakarta Commons-HttpClient/3.1',
+  host: 'wvmrkt.com:8086',
+  'content-length': '123',
+  'content-type': 'application/json; charset=UTF-8' }
+BODY:
+[{"location":{"id":2910,"lon":-122.29293228333334,"lat":37.8415427,"unc":145.0,"time":1302208039,"expiration":1302294439}}]
+
+
+
+

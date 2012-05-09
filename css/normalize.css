@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Normalize margin and padding */
+html, body,
+div, img , a, button,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+form, fildset, legend, input, label, textarea, select,
+table, th, td,
+dl, dt, dd,
+iframe,
+p, blockquote,
+pre, address, code, site, tt{ margin:0; paddding:0; font-size:100%;}
+select, input, textarea, pre, code, tt{ font-size:105%;} /* appears smaller than usual */
+
+/* normalize font size for headers */
+h1, h2, h3, h4, h5 , h6 { font-size:100%;}
+
+/* remove list styles */
+ol, ul {list-style:none; }
+
+/* normalize font-style and font-weight to normal */
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal; font-weight:normal;	
+}
+/* normalize table border  */
+fieldset, img {
+	border:0;
+	padding:0;	
+}
+
+/* left-align text in caption and th */
+caption, th {
+	text-align:left;	
+}
+
+/* remove quotation marks from q --*/
+q:before, q:after {
+		content: ' ';	
+}
+
+/* used for header text that will be replaced by an image */
+.structural {
+	position:absolute;
+	left:-5000px;
+}

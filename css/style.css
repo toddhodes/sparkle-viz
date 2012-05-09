@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import 'normalize.css';
+
+
+body {
+   background: url('../images/ui/bodyBackgroundGradient.png') repeat-x 0 0;
+   font-family:Arial, Helvetica, sans-serif;
+   background:white;
+}
+
+
+a {
+   text-decoration:none;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+
+.mainTimeHeader {
+   font-weight:bold;   
+}
+
+
+
+/* Layout Containers */
+#mainContainer {
+   width:966px;
+   margin:0 auto 0;
+   height:610px;
+}
+
+#map_canvas {
+   width:866px;
+   height:460px;
+   padding:20px;
+   position:relative;
+   top:-5px;
+   left:20px;
+   overflow:hidden;
+}
+
+#playerContainer {
+   width:946px;
+   height:629px;
+   background: url('../images/ui/playerBackground.png') no-repeat 0 0;
+   position:relative;
+   top:10px;
+}
+
+#playerContainerBackground {
+   width:928px;
+   height:315px;
+   background: url('../images/ui/backgroundGradient_blurred.png') no-repeat 0 0;
+   position:absolute;
+   top:180px;
+   left:8px;
+      
+}
+
+#playerContainerBackground_2 {
+   width:928px;
+   height:315px;
+   background: url('../images/ui/backgroundGradient_blurred.png') no-repeat 0 0;
+   position:absolute;
+   top:130px;
+   left:8px;
+      
+}
+
+#mainController {
+   height:90px;
+   position:relative;
+   top:-93px;
+   left:10px;
+}
+
+#calendar {
+   position:relative;
+   top:-63px;
+   left:20px;
+}
+
+
+/* Logos */
+
+#logo {
+   background: url('../images/sparkleLogo.png') no-repeat 0 0;   
+   width:386px;
+   height:77px;   
+   position:absolute;
+   top:25px;   
+   left:25px;
+}
+
+#logo:hover {
+   cursor:pointer;   
+}
+/* Sign In Page */
+
+#logoSignIn {
+   background: url('../images/sparkleLogo.png') no-repeat 0 0;   
+   width:386px;
+   height:77px;   
+   position:absolute;
+   top:120px;   
+   left:310px;
+}
+
+#signInForm {
+   position:absolute;
+   top:10px;
+   left:315px;
+}
+
+#signInForm input {
+   background:transparent;
+   border:0;
+   background: url('../images/ui/inputField.png') no-repeat 0 5px;
+   padding:10px;   
+   width:215px;
+   color:#593a5d;
+}
+
+button.signInButton {
+   border:0;
+   background: url('../images/ui/signInButton.png') no-repeat 0 0;   
+   width:116px;
+   height:34px;
+   margin-left:82px;
+   -moz-outline:none;
+   cursor: pointer;
+   margin-top:10px;
+}
+
+button.signInButton:hover {
+   border:0;
+   background: url('../images/ui/signInButton.png') no-repeat 0 -35px;   
+   width:116px;
+   height:34px;
+   margin-left:82px;
+   
+}
+
+#signIn {
+   float:right;
+   position:absolute;
+   top:20px;
+   right:20px;
+   font-size:90%;
+   color:#593a5d;
+}
+
+#signIn a{
+   color:#593a5d;
+}
+
+#header{
+   height:80px;   
+}
+
+
+
+#announcementBar {
+   /* background: rgba(65, 42, 69, 0.5); */
+   background: url('../images/ui/announcementBar.png') no-repeat 0 0;
+   width: 906px;
+   height: 60px;
+   position:absolute;
+   top:75px;
+   left:20px;
+   z-index:75;
+}
+
+#headerBar {
+   background: rgba(65, 42, 69, 0.9);
+   width: 906px;
+   height: 60px;
+   margin-left:20px;
+   z-index:75;
+}
+
+#announcementBar {
+   color:#fff;
+}
+span.mainMessage {
+   color:#a3edff;
+}
+
+span.inputLabels {
+   display:inline-block;
+   width:80px;   
+   color:#593a5d;
+   font-weight:bold;
+}
+
+
+/*Buttons*/
+
+
+#mainButton {
+   background: url('../images/ui/all_buttons.png') no-repeat 0 0;
+   width:53px;
+   height:53px;
+   left: 27px;
+   top: 20px;
+   z-index:50;
+   position:absolute;
+   cursor:pointer;
+}
+
+
+#mainButton:hover {
+   background: url('../images/ui/all_buttons.png') no-repeat -107px 0;   
+   width:53px;
+   height:53px;
+   left: 27px;
+   top: 20px;
+   z-index:50;
+   position:absolute;
+   cursor:pointer;
+}
+
+
+#pauseButton {
+   background: url('../images/ui/all_buttons.png') no-repeat -53px 0;
+   width:53px;
+   height:53px;
+   left: 27px;
+   top: 20px;
+   z-index:50;
+   position:absolute;
+   cursor:pointer;
+}
+
+#pauseButton:hover {
+   background: url('../images/ui/all_buttons.png') no-repeat -160px 0;
+   width:53px;
+   height:53px;
+   left: 27px;
+   top: 20px;
+   z-index:50;
+   position:absolute;
+   cursor:pointer;
+}
+
+#sliderNub {
+   width:68px;
+   height:68px;
+   top: -8px;
+   position:absolute;
+   background: url('../images/ui/sliderNub.png') no-repeat 0 0;   
+   cursor:pointer;   
+}
+
+
+.sparkleEnabled {
+   background: url('../images/ui/childSelectorButton.png') no-repeat 0 0;
+   width:451px;
+   height:81px;
+}
+
+.sparkleEnabled:hover {
+   background: url('../images/ui/childSelectorButton.png') no-repeat 0 -82px;
+   width:451px;
+   height:81px;
+}
+
+.notEnabled {
+   background: url('../images/ui/childSelectorButton.png') no-repeat 0 -166px;
+   width:451px;
+   height:81px;
+}
+
+#timelineBackground {
+   width:892px;
+   height:45px;
+   background: url('../images/ui/timeline_Surround_v3.png') no-repeat 0 0;
+   z-index:2;
+   position:absolute;
+   top:20px;
+   left:90px;
+}
+
+
+
+.dateMsg {
+   font-weight:bold;   
+   color:#e1f9ff;
+}
+
+.mainMsg {
+
+}
+
+#locationMessage {
+   padding:8px;   
+}
+
+
+
+.tick {
+   width:3px;
+   height:12.5px;   
+   background: #CC9;
+   position:absolute;
+   z-index: -1;
+   top:19px;
+   left:100px;
+}
+
+.timeMessage {
+   float:right;
+   font-weight:bold;
+   font-size: 1.3em;
+   margin-top: 0.3em;
+}
+
+/*Child Select Page */
+
+.locateHeader {
+   font-weight:bold;   
+   color:#fff;
+   padding:9px 0 0 10px;
+   text-shadow:0px 0px 4px #000;
+}
+
+#childToLocateFeed {
+   width:510px;   
+   margin:45px auto 0;
+
+}
+
+#childToLocateFeed a {
+   text-decoration:none;   
+   font-weight:bold;
+   
+}
+
+.feedText {
+   display:inline-block;
+   padding:27px 0px 0 35px;
+}
+.deviceNumber {
+   display:inline-block;   
+   color:#000;
+   font-weight:800;
+   padding-right:60px;
+}
+
+.enabledText{
+   color:#fff;   
+   text-shadow:0px 0px 5px #000;   
+   filter: Shadow(Color=#000, 
+                 Direction=135, 
+                 Strength=5);
+}
+
+.kid1 {
+   width:60px;
+   height:60px;
+   background: url('../images/kid1.png') no-repeat 0 0;
+   float:left;
+   margin:8px 0 10px 10px;
+}
+
+.kid2 {
+   width:60px;
+   height:60px;
+   background: url('../images/kid2.png') no-repeat 0 0;
+   float:left;
+   margin:8px 0 10px 10px;
+}
+
+.kid3 {
+   width:60px;
+   height:60px;
+   background: url('../images/kid3.png') no-repeat 0 0;
+   float:left;
+   margin:8px 0 10px 10px;
+}
+
+.kid4 {
+   width:60px;
+   height:60px;
+   background: url('../images/kid4.png') no-repeat 0 0;
+   float:left;
+   margin:8px 0 10px 10px;
+}

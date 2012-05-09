@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sparkle Playback Demo</title>
+    <link rel="stylesheet" href="css/style.css" media ="screen" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js"
+            djConfig="parseOnLoad:true, isDebug:true"></script>
+        <script type="text/javascript" src="js/functionality.js"></script>
+    <!--[if IE]>
+    <link rel="stylesheet" href="css/fixes_ie.css" />
+    <![endif]-->
+    <!--[if IE7]>
+    <link rel="stylesheet" href="css/fixes_ie7.css" />
+    <![endif]-->
+  </head>
+
+  <body>
+    <div  id="mainContainer">
+
+      <div id="playerContainer">
+        <div id="header">
+          <h1 class="structural">Sparkle Playback Demo</h1>
+          <div id="logo"></div>
+          <div id="signIn"><a href="index.html">sign out</a></div>
+        </div>
+
+        <div id="announcementBar">
+          <div id="locationMessage">
+            <h1 class="locateHeader">Select a device to locate</h1>          
+          </div>
+        </div>
+       <div id="playerContainerBackground_2">
+       <div id="childToLocateFeed">
+         <ul>
+           <li class="sparkleEnabled"><a href="map.html?mdn=5106107008"><div class="kid1"></div><div class="feedText"><span class="deviceNumber">510-610-7008</span><span class="enabledText">Sparkle Enabled</span></div></a></li>
+           <li class="sparkleEnabled"><a href="map.html?mdn=5103326150"><div class="kid2"></div><div class="feedText"><span class="deviceNumber">510-332-6150</span><span class="enabledText">Sparkle Enabled</span></div></a></li>
+           <li class="sparkleEnabled"><a href="map.html?mdn=5109184126"><div class="kid3"></div><div class="feedText"><span class="deviceNumber">510-918-4126</span><span class="enabledText">Sparkle Enabled</span></div></a></li>
+           <li class="notEnabled"><div class="kid4"></div><div class="feedText"><span class="deviceNumber">510-918-4123</span><span>Not Installed</span></div></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+    
+    </div>
+  </body>
+</html>
